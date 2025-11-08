@@ -1,0 +1,35 @@
+{
+  "name": "neon-agent-monitor",
+  "displayName": "Neon Agent Monitor",
+  "description": "Track AI agent progress with cyberpunk-styled real-time visualization in VS Code.",
+  "version": "1.0.0",
+  "publisher": "your-actual-publisher-name",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Other"],
+  "main": "./out/extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "commands": [
+      {
+        "command": "neonAgentMonitor.start",
+        "title": "Start Neon Agent Monitor"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "lint": "eslint src --ext .ts"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0",
+    "@types/node": "^18.0.0",
+    "typescript": "^4.9.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "@vscode/test-electron": "^2.2.0",
+    "@vscode/vsce": "^2.15.0"
+  }
+}
