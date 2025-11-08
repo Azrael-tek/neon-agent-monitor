@@ -3,7 +3,7 @@
   "displayName": "Neon Agent Monitor",
   "description": "Track AI agent progress with cyberpunk-styled real-time visualization in VS Code.",
   "version": "1.0.0",
-  "publisher": "your-actual-publisher-name",
+  "publisher": "azrael-tek",
   "engines": {
     "vscode": "^1.70.0"
   },
